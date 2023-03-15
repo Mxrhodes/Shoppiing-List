@@ -1,0 +1,61 @@
+body {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+  
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background-color: #5DADE2;
+    /* color: #D0D3D4; */
+}
+  
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 60px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: 
+      -1px -1px 0 firebrick,
+      -2px -2px 0 firebrick,
+      -3px -3px 0 firebrick,
+      -4px -4px 0 firebrick,
+      -5px -5px 0 firebrick,
+      -6px -6px 0 firebrick,
+      -7px -7px 0 firebrick,
+      -8px -8px 0 firebrick,
+      -30px 20px 40px dimgrey;
+}
+  
+input#user-input {
+    padding: 5px;
+}
+  
+button#enter {
+    padding: 5px;
+}
+ul {
+    background-color: #D0D3D4;
+    padding: 10px 0 40px 0;
+    list-style-position: inside;
+    text-align: justify;
+}
+  
+li {
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+  
+.done {
+    text-decoration: line-through;
+}
+  
+button.del {
+    margin-left: 10px;
+    padding: 5px;
+  }
